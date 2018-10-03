@@ -13,9 +13,7 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   library = load_library(path)
-  library["get_emoticon"].each do |english, japanese|
-    if emoticon == english then japanese end
-  end
+  japanese = library[]
 end
 
 def get_english_meaning

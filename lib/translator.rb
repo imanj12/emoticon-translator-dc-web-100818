@@ -7,7 +7,6 @@ def load_library(path)
     japanese_emoticon = emoticons[1]
     library["get_meaning"][japanese_emoticon] = meaning
     library["get_emoticon"][english_emoticon] = japanese_emoticon
-    
   end
   library
 end

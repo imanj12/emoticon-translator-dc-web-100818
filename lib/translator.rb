@@ -19,5 +19,6 @@ end
 
 def get_english_meaning(path,emoticon)
   library = load_library(path)
-  meaning = library["get_meaning"][]
+  meaning = library["get_meaning"][emoticon]
+  meaning ? meaning : "Sorry, that meaning was not found"
 end

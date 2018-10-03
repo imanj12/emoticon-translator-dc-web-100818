@@ -13,7 +13,7 @@ end
 
 def get_japanese_emoticon(path,emoticon)
   library = load_library(path)
-  library.each do |key, |
+  library["get_emoticon"].each do |eng, jap|
 end
 
 def get_english_meaning

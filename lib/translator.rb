@@ -1,7 +1,7 @@
 require "yaml"
 
 def load_library(path)
-  library = {"get_emoticon" => {}, "get_meaning"
+  library = {"get_emoticon" => {}, "get_meaning" => {}}
 end
 
 def get_japanese_emoticon
